@@ -15,7 +15,7 @@ const NavItems = ({data}) => {
   const iconSrc = iconMap[data.name]
 
   return (
-    <div className='flex text-white h-[22px] items-center gap-2'>
+    <div className='flex text-white h-[22px] min-w-[234px] items-center justify-center gap-2'>
       <img src={iconSrc} alt='navbar item icon' className='w-[18.2px] h-[18.2px]'/>
       <p className='text-[12px] font-manrope font-medium'>{data.text}</p>
     </div>
