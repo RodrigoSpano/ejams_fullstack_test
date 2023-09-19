@@ -17,3 +17,27 @@ export const navbarItemsHelper = [
   },
 ]
 
+export const progressItemsHelper = [
+  {
+    name: 'checked',
+    text: 'Step 1 : Cart Review',
+    smallText: 'Cart Review',
+
+  },
+  {
+    name: 'checked',
+    text: 'Step 2 : Checkout',
+    smallText: 'Checkout',
+  },
+  {
+    name: 'third',
+    text: 'Step 3 : Special Offer',
+    smallText: 'Special Offer'
+  },
+  {
+    name: 'fourth',
+    text: 'Step 4 : Confirmation',
+    smallText: 'Confirmation'
+  },
+]
+

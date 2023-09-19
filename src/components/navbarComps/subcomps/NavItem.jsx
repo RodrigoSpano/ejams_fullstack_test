@@ -17,7 +17,7 @@ const NavItems = ({data}) => {
   return (
     <div className='flex text-white h-[22px] min:min-w-[234px] items-center justify-center gap-2'>
       <img src={iconSrc} alt='navbar item icon' className='w-[18.2px] h-[18.2px]'/>
-      <p className='text-[12px] font-manrope font-medium'>{data.text}</p>
+      <p className='text-[12px] font-medium'>{data.text}</p>
     </div>
   )
 }
