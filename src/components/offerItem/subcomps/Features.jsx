@@ -1,11 +1,11 @@
-import FeatureCard from "./FeatureCard"
+import FeatureCard from './FeatureCard'
 const featuresHelper = ['negative', 'designed', 'perfect']
 const Features = () => {
   return (
     <div>
-      {
-        featuresHelper?.map((el,i) => <FeatureCard text={el} key={i} />)
-      }
+      {featuresHelper?.map((el, i) => (
+        <FeatureCard text={el} key={i} />
+      ))}
     </div>
   )
 }
