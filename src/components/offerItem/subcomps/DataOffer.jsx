@@ -1,3 +1,5 @@
+import Discount from "./Discount"
+import DiscountContainer from "./DiscountContainer"
 import Features from "./Features"
 import ItemInfo from "./ItemInfo"
 import OfferTitle from "./OfferTitle"
@@ -8,6 +10,8 @@ const DataOffer = () => {
       <OfferTitle />
       <ItemInfo />
       <Features />
+      <Discount />
+      <DiscountContainer />
     </div>
   )
 }
