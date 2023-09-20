@@ -1,3 +1,4 @@
+import Footer from './components/footer/Footer'
 import { Container as HeaderCont } from './components/header/Container'
 import Navbar from './components/navbarComps/Navbar'
 import OfferContainer from './components/offerItem/OfferContainer'
@@ -10,6 +11,7 @@ function App() {
       <HeaderCont />
       <OrderProgress />
       <OfferContainer />
+      <Footer />
     </div>
   )
 }
